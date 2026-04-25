@@ -1,6 +1,6 @@
 # Yanis Nguyen – Portfolio
 
-**Live demo:** portfolio-inky-two-vx08c87vfr.vercel.app
+**Live demo:** [https://portfolio-inky-two-vx08c87vfr.vercel.app](https://portfolio-inky-two-vx08c87vfr.vercel.app)
 
 
 My front-end portfolio showcasing React projects and YouTube growth experience (90K+ subscribers).
