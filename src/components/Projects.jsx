@@ -25,7 +25,7 @@ const projects = [
         name: "Portfolio",
         stack: "React · CSS",
         desc: "Personal portfolio connecting front-end projects + affiliate/creative direction experience.",
-        live: null,
+        live: "portfolio-inky-two-vx08c87vfr.vercel.app",
         repo: "https://github.com/yz2k3/Portfolio",
     },
     {
