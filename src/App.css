@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap');
+
+/* ── Global Styles ── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust based on your nav height */
+}
+
+/* ── CSS Variables: Light mode ── */
+:root {
+  --bg: #ffffff;
+  --bg-glow: rgba(70, 130, 180, 0.5);
+  --surface: rgba(70, 130, 180, 0.05);
+  --surface-card: #ffffff;
+  --border: rgba(70, 130, 180, 0.15);
+  --text: #1a1a2e;
+  --text-muted: #555555;
+  --text-faint: #888888;
+  --accent: #4682b4;
+  --accent-dark: #2a5f8c;
+  --accent-light: rgba(70, 130, 180, 0.1);
+  --nav-bg: rgba(255, 255, 255, 0.85);
+  --dot-border: #ffffff;
+}
+
+/* ── CSS Variables: Dark mode ──
+   When App.jsx adds class "dark" to <html>, these override the ones above. */
+html.dark {
+  --bg: #0f1117;
+  --bg-glow: rgba(70, 130, 180, 0.25);
+  --surface: rgba(70, 130, 180, 0.08);
+  --surface-card: #1a1f2e;
+  --border: rgba(70, 130, 180, 0.2);
+  --text: #e8eaf0;
+  --text-muted: #9aa3b8;
+  --text-faint: #6b7280;
+  --accent: #6ba3d0;
+  --accent-dark: #4682b4;
+  --accent-light: rgba(70, 130, 180, 0.15);
+  --nav-bg: rgba(15, 17, 23, 0.9);
+  --dot-border: #0f1117;
+}
+
+/* ── Reset ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ── App layout ── */
+.app-root {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background: var(--bg);
+}
+
+/* The blue radial glow at the top — your exact style */
+.app-glow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--bg);
+  background-image: radial-gradient(circle at top center,
+      var(--bg-glow),
+      transparent 70%);
+  filter: blur(80px);
+  background-repeat: no-repeat;
+}
+
+/* Content sits above the glow */
+.app-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Fade-up animation ──
+   Elements start hidden and 30px below their real spot.
+   When JS adds class "visible", they transition smoothly into place. */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Shared section layout ── */
+.section {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.section-text {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 680px;
+}
+
+/* ── Shared buttons ── */
+.btn-primary {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.7rem 1.6rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  display: inline-block;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  padding: 0.7rem 1.6rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-outline:hover {
+  background: var(--accent-light);
+  transform: translateY(-1px);
+}
+
+/* ── Shared badge ── */
+.badge {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .section {
+    padding: 3rem 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+}

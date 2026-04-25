@@ -1,0 +1,78 @@
+.hero {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7rem 2rem 3rem;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.hero-greeting {
+    font-size: 1rem;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.hero-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text);
+    margin-bottom: 1.2rem;
+    min-height: 4.5rem;
+}
+
+.hero-sub {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    max-width: 600px;
+    margin-bottom: 1.8rem;
+}
+
+/* Row of tech icons */
+.tech-icons-row {
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.tech-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: default;
+    transition: transform 0.2s;
+}
+
+.tech-badge:hover {
+    transform: translateY(-5px);
+}
+
+.tech-badge-label {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding-top: 5rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+}
