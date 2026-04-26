@@ -18,11 +18,10 @@ export default function Summary() {
             <FadeSection>
                 <h2 className="section-title">About Me</h2>
                 <p className="section-text">
-                    Self-taught front-end developer skilled in React, JavaScript, CSS, and Git.
-                    I’ve built and deployed projects including a workflow tracking dashboard and an e-commerce site.
-                    Through supporting a 90K+ subscriber YouTube channel, I gained real-world experience simplifying complex tasks and improving content workflows.
-                    I enjoy building practical interfaces and
-                    I’m eager to keep learning and growing in a professional environment.
+                    Self-taught Front-End Developer with skills in React, JavaScript, CSS, and Git.
+                    Built deployed projects including workflow dashboard, e-commerce website, and portfolio site.
+                    Real-world experience supporting a 90K+ subscriber YouTube channel by improving workflows, SEO research, and content systems.
+                    Eager to grow in a professional development environment.
                 </p>
                 <div className="skills-grid">
                     {skills.map((s) => (
