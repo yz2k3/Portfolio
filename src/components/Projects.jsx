@@ -10,7 +10,7 @@ const projects = [
     {
         name: "Track-Board",
         stack: "JavaScript · CSS · Vercel",
-        desc: "Real-time tracking dashboard for bigger team working zones – helps teams track tasks and progress in one place.",
+        desc: "Developed a real-time tracking board for managing team workflows and monitoring task progress efficiently.",
         live: "https://track-board-project.vercel.app",
         repo: "https://github.com/yz2k3/Track-Board-Project",
     },
@@ -31,7 +31,7 @@ const projects = [
     {
         name: "YouTube Growth Experiment",
         stack: "AI · SEO · Personal Project",
-        desc: "Grew a personal YouTube channel to ~200,000 views in 3 months using AI workflows and SEO. (09/2024 – 11/2024)",
+        desc: "Grew a personal YouTube channels to ~200,000 views in 3 months using AI workflows and SEO. (09/2024 – 11/2024)",
         live: null,
         repo: null,
     },
