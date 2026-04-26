@@ -19,7 +19,7 @@ export default function Contact() {
                     <a href="mailto:micaeankun8903@gmail.com" className="btn-primary">
                         micaeankun8903@gmail.com
                     </a>
-                    <a href="https://linkedin.com/in/hoang-thien-an-nguyen-272574199/" target="_blank" rel="noreferrer" className="btn-outline">
+                    <a href="https://www.linkedin.com/in/an-nguyen-272574199/" target="_blank" rel="noreferrer" className="btn-outline">
                         LinkedIn ↗
                     </a>
                     <a href="https://github.com/yz2k3" target="_blank" rel="noreferrer" className="btn-outline">
