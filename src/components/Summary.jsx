@@ -9,7 +9,9 @@ function FadeSection({ children }) {
 const skills = [
     { label: "Languages & Frameworks", items: "HTML · CSS · JavaScript · React" },
     { label: "Tools & Platforms", items: "Git · VS Code · Streamlabs · Vercel · YouTube Studio" },
-    { label: "Soft Skills", items: "Problem Solving · Communication · Creative Direction · Affiliate Research" },
+    {
+        label: "Soft Skills", items: " Multi-tasking · Problem Solving · Communication · Creative Direction · Affiliate Research · Task Decomposition"
+    },
 ];
 
 export default function Summary() {
