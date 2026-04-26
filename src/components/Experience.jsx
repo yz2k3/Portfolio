@@ -15,6 +15,7 @@ const jobs = [
             "Main focus: Affiliate content strategy – watch products, provide real-time feedback, suggest video ideas and music choices that fit the content",
             "Secondary: Customize Streamlabs widgets using HTML, CSS, and JavaScript for livestream overlays",
             'Work under mentorship of ex-founder of 1M-sub channel "Chao Ngay Moi"',
+            "Key learning: Broke down complex workflows into smaller tasks to improve efficiency and content production",
         ],
     },
     {
