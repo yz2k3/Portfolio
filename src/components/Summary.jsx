@@ -19,9 +19,10 @@ export default function Summary() {
                 <h2 className="section-title">About Me</h2>
                 <p className="section-text">
                     Self-taught front-end developer skilled in React, JavaScript, CSS, and Git.
-                    I've built and deployed three live projects including a team workflow dashboard and an e-commerce site.
-                    Through supporting a 90K+ subscriber YouTube channel, I've learned to simplify complex work – breaking tasks down into small, manageable pieces.
-                    I apply UX/UI thinking and AI-assisted workflows to build practical interfaces. I'm still learning and want to grow step by step in a professional environment.
+                    I’ve built and deployed projects including a workflow tracking dashboard and an e-commerce site.
+                    Through supporting a 90K+ subscriber YouTube channel, I gained real-world experience simplifying complex tasks and improving content workflows.
+                    I enjoy building practical interfaces and
+                    I’m eager to keep learning and growing in a professional environment.
                 </p>
                 <div className="skills-grid">
                     {skills.map((s) => (
