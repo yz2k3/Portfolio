@@ -9,7 +9,7 @@ function FadeSection({ children }) {
 const jobs = [
     {
         role: "Front-End Developer & SEO Affiliate Support",
-        place: "YouTube @tulianugaming (90K+ subscribers)",
+        place: "YouTube @tulianugaming (190K+ subscribers)",
         period: "09/2025 – Present · Ho Chi Minh, Vietnam",
         bullets: [
             "Main focus: Affiliate content strategy – watch products, provide real-time feedback, suggest video ideas and music choices that fit the content",

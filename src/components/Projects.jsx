@@ -10,21 +10,22 @@ const projects = [
     {
         name: "Track-Board",
         stack: "JavaScript · CSS · Vercel",
-        desc: "Developed a real-time tracking board to manage team workflows and track task progress.",
+        desc: "Built a real-time task tracking board with drag-and-drop between columns using React state — deployed on Vercel.Features: add, edit, delete tasks with modal UI, localStorage persistence, and priority/ tag labeling.",
+                
         live: "https://track-board-project.vercel.app",
         repo: "https://github.com/yz2k3/Track-Board-Project",
     },
     {
         name: "E-Commerce (Perfume)",
         stack: "React · CSS · Vercel",
-        desc: "Built a product listing page with shopping cart functionality and filtering features.",
+        desc: "Product listing page with shopping cart, category filtering, and responsive UI — deployed on Vercel.",
         live: "https://project-perfume-ga73.vercel.app",
         repo: "https://github.com/yz2k3/Project-Perfume",
     },
     {
         name: "Portfolio",
         stack: "React · CSS",
-        desc: "Personal portfolio showcasing front-end projects and creative/affiliate experience.",
+        desc: "Personal portfolio showcasing frontend projects, live demos, and GitHub links.",
         live: "https://portfolio-inky-two-vx08c87vfr.vercel.app",
         repo: "https://github.com/yz2k3/Portfolio",
     },
