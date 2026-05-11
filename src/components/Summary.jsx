@@ -22,7 +22,8 @@ export default function Summary() {
                 <p className="section-text">
                     Self-taught Front-End Developer with skills in React, JavaScript, CSS, and Git.
                     Built deployed projects including workflow dashboard, e-commerce website, and portfolio site.
-                    Real-world experience supporting a 90K+ subscriber YouTube channel by improving workflows, SEO research, and content systems.
+                    Real-world experience supporting a 100K+ subscriber YouTube channel by improving workflows, SEO research, and content systems.
+                    Able to read technical documentation and communicate effectively in English (conversational).
                     Eager to grow in a professional development environment.
                 </p>
                 <div className="skills-grid">
